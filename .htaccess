@@ -1,0 +1,12 @@
+
+
+RewriteEngine on
+
+
+# Rule that changes the url link
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Checks file for .html extension
+RewriteCond %{REQUEST_FILENAME}/.html -f
+
+RewriteRule ^(.*)$ $1.html [NC,L]
