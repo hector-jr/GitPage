@@ -1,4 +1,4 @@
 # GitPage
 Testing Git pages
 
-Messing around
+Messing around with gitpage functionality
